@@ -31,6 +31,10 @@ const handleUserInput = (input) => {
   if(input === 'd') {
     connection.write('Move: right')
   }
+
+  if(input === 'p') {
+    connection.write('Say: Hello There')
+  }
 };
 
 module.exports = {setupInput};
